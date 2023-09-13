@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h4>Preencha o formulário abaixo</h4>
+    <fieldset style="border: px solid black; padding: 5px; margin: 5px;">
+        <legend><b>Dados pessoais</b></legend>
+        <br>    
+    <form action="" method="post">
+        <div class="nome">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome">
+        </div>
+        <br>
+        <div class="nascimento">
+            <label for="nascimento">Nascimento:</label>
+            <input type="date" id="date">
+        </div>
+        <br>
+        <div class="rg">
+            <label for="RG">RG:</label>
+            <input type="number" id="RG" name="RG">
+        </div>
+        <br>        
+        <div>
+            <label for="Cpf1">CPF:</label>
+        <input type="number" id="Cpf1" name="Cpf1" style="width: 90px;"> -
+        <input type="number" id="Cpf2" name="Cpf2" style="width: 28px;">
+        </div>
+    </fieldset> 
+    <fieldset style="border: px solid black; padding: 5px; margin: 5px;">
+        <legend><b>Dados de Endereço</b></legend>
+        <br> 
+        <div class="rua" >
+            <label for="Rua">Rua:</label>
+            <input type="text" id="Rua" placeholder="Ex.: Rua bem me quer">
+            <label for="Numero">Numero:</label>
+            <input type="text" id="numero" style="width: 53px;" placeholder="Ex.: 72">
+
+        </div>   
+        <br>
+        <div class="Bairro">
+            <label for="Bairro">Bairro:</label>
+            <input type="text" id="Bairro">
+        </div>
+        <br>
+        <div>
+            <label for="Estado">Estado:</label>
+           <select name="Estado" id="Estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+           </select>
+        </div>
+        <br>
+        <div class="cidade">
+            <label for="Cidade">Cidade:</label>
+            <input type="text" id="Cidade">
+        </div>
+        <br>
+        <div class="cep">
+            <label for="Cep1">CEP:</label>
+            <input type="text" id="cep1" style="width: 80px;" >
+            <label for="Cep2">-</label>
+            <input type="text" id="Cep2" style="width: 55px;">
+        </div>
+    </fieldset> 
+    <br>
+    <fieldset style="border: px solid black; padding: 5px; margin: 5px;">
+        <legend><b>Dados de Login</b></legend>
+        <br>
+        <div>
+            <label for="Email">E-mail:</label>
+            <input type="text" id="E-mail">
+        </div>
+        <br>
+        <div class="imagem">
+            <label for="Imagem de perfil">Imagem de perfil:</label>
+            <button>Escolher arquivo</button>  Nenhum arquivo selecionada
+        </div>
+        <br>
+        <div class="login">
+            <label for="login">Login de usuário:</label>
+            <input type="text" id="login">
+        </div>
+        <br>
+        <div class="senha">
+            <label for="senha">Senha:</label>
+            <input type="text" id="Senha">
+        </div>
+        <br>
+        <div class="confirmação">
+            <label for="conf-senha">Confirme a senha:</label>
+            <input type="text" id="conf-senha">
+
+        </div>
+
+
+    </fieldset> 
+    </form>
+    <div class="botao">
+        <button>Enviar</button>
+        <button>Limpar</button>
+    </div>
+
+</body>
+</html>
